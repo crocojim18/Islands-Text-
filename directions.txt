@@ -1,0 +1,33 @@
+Key: [required] (optional)
+Commands:
+
+take [north/south/east/west]: Takes the item (if takable) from the direction specified and adds it to your inventory.
+place [#] [north/south/east/west]: Places item # onto the map adjacent to you in specified direction if location is valid & empty.
+check inventory: Lists the items in your inventory.
+check map: Shows the whole island on a miniature scale.
+look [north/south/east/west/down]: Tells you the name of the thing directly adjacent to you in that direction.
+move [north/south/east/west] (#): Moves you # spaces in that direction. If number parameter is left empty, move will move you one space.
+fight [north/south/east/west]: Fights a creature to the direction you specify (as long as you can actually fight them).
+eat [*item in your inventory]: If the item is edible, you'll be able to eat it.
+talk [north/south/east/west]: Talks to an NPC, given there is someone to talk to in that direction.
+help: Shows this page.
+directions: Shows this page.
+quit: Terminates the program.
+
+Fighting instructions:
+While in fights, the way to fight is [*attack name] [with] [*weapon name].
+Every takable item is a weapon. All weapons are equipped with attack "hit", and some are equipped with others.
+There's no penalty for entering an invalid command in fight.
+During a fight, you can check your inventory using 'check command'.
+If you want to repeat an attack, just don't enter any command, and press enter.
+To see what moves are available, use 'list moves for [item name here]'
+
+Trading Instructions:
+sell [item]: Sells an item in your inventory, given the shopkeeper is buying it.
+buy [item]: Buys an item, provided you have the money.
+check inventory: Lists the items in your inventory.
+check wallet: Tells you how much money you have.
+check prices: Shows what the shopkeeper is selling and for how much.
+leave, quit, exit: exits the shopkeeper dialogue
+
+If you have any questions, send me an ask at crocojim18.tumblr.com, or email me at crocojim18@gmail.com.
