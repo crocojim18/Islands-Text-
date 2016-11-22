@@ -1,4 +1,4 @@
-# Islands
+![Islands Logo](http://67.media.tumblr.com/45366e53e82414f92ac4ddd4a270a1de/tumblr_o9ezsoE3fF1rqebcso1_500.png)
 ### a game by Marty Taylor
 
 ---
