@@ -15,3 +15,9 @@ There are tons of bugs and it is by no means finished. I just thought this would
 ## Licensing
 
 Creative Commons (CC BY). If you're gonna do something with it, tell me, because that's the cool thing to do.
+
+## How to Run:
+
+* Compile: javac Runner
+  * Note: sometimes not all the classes compile, and when run it can't find some classfiles. If this happens, manually compiling each file should work. I'm working on fixing this.
+* Run: java Runner

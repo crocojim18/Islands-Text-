@@ -1,3 +1,10 @@
+import Collections.*;
+import Items.Living.*;
+import Items.Immovables.*;
+import Items.PhysObject;
+import Items.Takables.*;
+import UnderTheHood.*;
+
 public class Runner
 {
     public static void main(String[] args)
