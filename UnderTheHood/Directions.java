@@ -1,8 +1,9 @@
 package UnderTheHood;
 
 import java.util.Scanner;
-import java.io.FileReader;
-import java.io.FileNotFoundException;
+import java.io.File;
+//import java.io.FileReader;
+//import java.io.FileNotFoundException;
 public class Directions
 {
     public static void list(boolean secret)
@@ -11,8 +12,8 @@ public class Directions
         {
             if(!secret)
             {
-                Class p = Class.forName("Directions");
-                Scanner input = new Scanner(p.getResourceAsStream("directions.txt"));
+				File dir = new File("UnderTheHood/directions.txt");
+                Scanner input = new Scanner(dir);
                 String s;
                 while(input.hasNext())
                 {
@@ -22,8 +23,8 @@ public class Directions
             }
             else
             {
-                Class p = Class.forName("Directions");
-                Scanner input = new Scanner(p.getResourceAsStream("etsi k'etsi.txt"));
+				File sec = new File("UnderTheHood/etsi k'etsi.txt");
+                Scanner input = new Scanner(sec);
                 String s;
                 while(input.hasNext())
                 {
@@ -32,13 +33,13 @@ public class Directions
                 }
             }
         }
-        catch(NullPointerException a)
+        catch(Exception a)
         {
             System.out.println("\"directions.txt\" not found!");
         }
-        catch(ClassNotFoundException b)
-        {
-            System.out.println("If you see this message, I don't know what's happening.");
-        }
+        //catch(ClassNotFoundException b)
+        //{
+        //    System.out.println("If you see this message, I don't know what's happening.");
+        //}
     }
 }
