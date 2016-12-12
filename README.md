@@ -18,6 +18,6 @@ Creative Commons (CC BY). If you're gonna do something with it, tell me, because
 
 ## How to Run:
 
-* Compile: javac Items/*/*.java && javac */*.java && javac Runner.java
+* Compile: `javac Items/*/*.java && javac */*.java && javac Runner.java`
   * Note: I'm working on a makefile
-* Run: java Runner
+* Run: `java Runner`
