@@ -1,3 +1,9 @@
+/* Island.java
+ * An island is a massive collection of terrains and items
+ * that serves as a backdrop and playing field for the whole
+ * game.
+*/
+
 package UnderTheHood;
 
 import Items.PhysObject;
@@ -17,9 +23,15 @@ public class Island
     int size;
     FightSpace arena;
     TalkSpace forum;
+	
+	/* method Island()
+     * ARGUMENTS:   int size
+     * RETURNS:     NONE
+     * Constructs an island with width and height of size.
+     */
     public Island(int size)
     {
-        if(size%2==0) size+=1;
+        if(size%2==0) size+=1;				//makes the island of odd length for gen purposes
         arr = new IslandSpace[size][size];
         int currLayer = 0;
         for(int i = 0; i < size; i++)

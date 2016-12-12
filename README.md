@@ -1,4 +1,4 @@
-![Islands Logo](http://67.media.tumblr.com/45366e53e82414f92ac4ddd4a270a1de/tumblr_o9ezsoE3fF1rqebcso1_500.png)
+![Islands](http://67.media.tumblr.com/45366e53e82414f92ac4ddd4a270a1de/tumblr_o9ezsoE3fF1rqebcso1_500.png)
 ### a game by Marty Taylor
 
 ---
@@ -18,6 +18,6 @@ Creative Commons (CC BY). If you're gonna do something with it, tell me, because
 
 ## How to Run:
 
-* Compile: javac Runner
-  * Note: sometimes not all the classes compile, and when run it can't find some classfiles. If this happens, manually compiling each file should work. I'm working on fixing this.
+* Compile: javac Items/*/*.java && javac */*.java && javac Runner.java
+  * Note: I'm working on a makefile
 * Run: java Runner

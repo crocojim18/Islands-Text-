@@ -39,8 +39,8 @@ public class Zombie extends Animate implements Fightable
     
     /* method move()
      * ARGUMENTS:   none
-     * RETURNS:     string
-     * Increments wheter or not to turn, then gives a direction accordingly
+     * RETURNS:     String
+     * Increments whether or not to turn, then gives a direction accordingly
      */
     public String move()
     {
@@ -65,7 +65,7 @@ public class Zombie extends Animate implements Fightable
 
     /* method getArticle()
      * ARGUMENTS:   none
-     * RETURNS:     string
+     * RETURNS:     String
      * Gives the zombie an article for dialogue purposes.
      */
     public String getArticle()
@@ -75,7 +75,7 @@ public class Zombie extends Animate implements Fightable
 
     /* method getName()
      * ARGUMENTS:   none
-     * RETURNS:     string
+     * RETURNS:     String
      * Gives the zombie a name for dialogue purposes.
      */
     public String getName()
